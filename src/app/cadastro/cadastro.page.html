@@ -17,10 +17,14 @@
   ></ion-img>
   <div class="corpo">
     <div>
-    <ion-textarea label="nome" labelPlacement="floating" fill="outline" placeholder="Enter text"></ion-textarea>
-    <ion-textarea label="email" labelPlacement="floating" fill="outline" placeholder="Enter text"></ion-textarea>
+      <ion-item>
+        <ion-input class="senha" placeholder="Nome" value=""></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input class="senha" placeholder="Email" value=""></ion-input>
+      </ion-item>    
     <ion-item>
-      <ion-input class="senha" label="Senha" type="password" value=""></ion-input>
+      <ion-input class="senha" placeholder="Senha" type="password" value=""></ion-input>
     </ion-item>
     <p class="text-cad" [routerLink]="['/login']" routerLinkActive="router-link-active">Voltar ao login</p>
     <div class="botao">

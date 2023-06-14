@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'classe',
     loadChildren: () => import('./classe/classe.module').then( m => m.ClassePageModule)
   },
+  {
+    path: 'tipofamilia',
+    loadChildren: () => import('./tipofamilia/tipofamilia.module').then( m => m.TipofamiliaPageModule)
+  },
 ];
 
 @NgModule({

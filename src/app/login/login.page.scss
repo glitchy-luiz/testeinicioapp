@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 22%;
+    margin-top: 20%;
 }
 .senha{
     max-width: 150px;
@@ -24,4 +24,15 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+.infosenha{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+.infos{
+    margin: 8px;
+}
+.esqueci{
+    color: darkgreen;
 }
