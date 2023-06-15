@@ -2,6 +2,7 @@
     width: 100%;
     height: 300px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -9,3 +10,15 @@
   ion-modal {
     --height: auto;
   }
+
+.botaomodal{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 180%;
+}
+.pgbotao{
+  width: 250px;
+}
+  ion-content.background{
+    --background: url(../../assets/iniciokidbg.png) 0 0/100% 100% no-repeat;
+}
